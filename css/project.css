@@ -1,0 +1,103 @@
+html {
+        font-size: 18px;
+    }
+
+
+    
+    body {
+        font-family: "Black Ops One", system-ui;
+        background-color:#672317;
+        color:rgb(246, 222, 9)  
+    } 
+
+
+    button, input, textarea, select {
+        font:inherit;
+    }
+
+    h2 { 
+        border-top: 5px solid silver;
+        border-right: 10px dotted rgb(246, 222, 9);
+        border-left: 10px dotted rgb(246, 222, 9);
+        border-bottom: 5px solid silver;
+        width: 18%;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        margin: 1.5em;
+        outline: 5px solid black;
+        outline-offset: -15px;
+        color: rgb(246, 222, 9);
+        
+    }
+
+    h3 { 
+        font-size: 28px;
+        color: rgb(246, 222, 9);
+    }
+    
+        p {
+        text-align: center;
+        text-indent: 2em;
+        line-height: 1.5;
+        font-style: italic;
+        font-size: 16px;
+        width: 150ch;
+        color:rgb(247, 247, 247,);
+        border: 3px solid black;
+    } 
+       
+
+    .highlight {
+        text-transform:lowercase;
+        background-color:rgb(0, 0, 0);
+    }
+
+    .black {
+        color:#000000;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: crosshair;
+        color:silver;
+    } 
+
+    a:visited {
+        color:#000000
+    }
+
+    a:hover, a:focus {
+        color:#FFD700;
+    }
+    
+    a:active {
+        color: silver;
+    }
+
+    dl {
+        color: gold;
+        list-style: square;
+        padding-left: 1.2%;
+        font-size: 1em;
+        list-style-position: inside;
+    }
+
+    dl li:nth-child(2) {
+        color: black;
+    }
+
+    ::marker {
+        color:silver;
+        font-family: "Black Ops One", system-ui;
+    }
+
+    table, tr, th, td, caption {
+        border: 1px solid silver;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;
+    }
+
+    #second {
+        font-style: italic;
+    }

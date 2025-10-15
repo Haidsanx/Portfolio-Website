@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    line-height: 35px; 
+}
+
+html {
+        font-size: 18px;
+    }
+
+
+    
+    body {
+        font-family: "Black Ops One", system-ui;
+        background-color:#672317;
+        color:rgb(246, 222, 9)  
+    } 
+
+
+    button, input, textarea, select {
+        font:inherit;
+    }
+
+    h1 { 
+        border-top: 5px solid silver;
+        border-right: 10px dotted rgb(246, 222, 9);
+        border-left: 10px dotted rgb(246, 222, 9);
+        border-bottom: 5px solid silver;
+        width: 18%;
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 1em;
+        outline: 5px solid black;
+        outline-offset: -15px;
+        color: rgb(246, 222, 9);
+    }
+
+    .circle {
+        margin: 3rem auto;
+        background-color: silver;
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 50px;
+        outline: 2px solid gold;
+        outline-offset: 0.25rem;
+    }
+
+    h2 { 
+        font-size: 28px;
+        color: rgb(246, 222, 9);
+        
+    }
+
+    h3 { 
+        font-size: 28px;
+        color: rgb(246, 222, 9);
+        
+    }
+    h4 { 
+        font-size: 28px;
+        color: rgb(246, 222, 9);
+        
+    }
+    h5 { 
+        font-size: 28px;
+        color: rgb(246, 222, 9);
+        
+    }
+    h6 {
+        font-size: 28px;
+        color: rgb(246, 222, 9);
+    }
+    
+        p {
+        text-align: left;
+        line-height: 1.5;
+        font-style: italic;
+        font-size: 18.5px;
+        width: 145ch;
+        color:rgb(247, 247, 247,);
+        border: 3px solid black;
+    } 
+       
+
+    .highlight {
+        text-transform:lowercase;
+        background-color:gold;
+    }
+
+    .black {
+        color:#000000;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: crosshair;
+        color:silver;
+    } 
+
+    a:visited {
+        color:#000000
+    }
+
+    a:hover, a:focus {
+        color:#FFD700;
+    }
+    
+    a:active {
+        color: silver;
+    }
+
+    table, tr, th, td, caption {
+        border: 1px solid silver;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;
+    }
+
+    #second {
+        font-style: italic;
+    }
