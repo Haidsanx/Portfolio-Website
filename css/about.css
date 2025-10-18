@@ -85,7 +85,7 @@ html {
     } 
 
     a:visited {
-        color:#000000
+        color:silver;
     }
 
     a:hover, a:focus {
