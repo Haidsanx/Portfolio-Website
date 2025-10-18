@@ -34,6 +34,10 @@ html {
         font-size: 28px;
         color: rgb(246, 222, 9);
     }
+
+    dd {
+        color: white;
+    }
     
         p {
         text-align: center;
